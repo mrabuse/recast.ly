@@ -21,4 +21,4 @@ const searchYouTube = (options, callback) => {
   });
 };
 
-window.searchYouTube = searchYouTube;
+window.searchYouTube = _.debounce(searchYouTube, 500);

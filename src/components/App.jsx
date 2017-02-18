@@ -23,6 +23,7 @@ class App extends React.Component {
       query: query
     };
 
+
     this.props.searchYouTube(options, (videos) => {
       context.setState({
         videoList: videos,
