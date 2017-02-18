@@ -9,6 +9,7 @@ const searchYouTube = (options, callback) => {
       maxResults: options.max || 5,
       videoEmbeddable: true,
       type: 'video',
+      videoDefinition: 'high',
       key: options.key
     },
     cache: false,
